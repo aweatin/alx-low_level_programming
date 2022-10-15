@@ -7,7 +7,7 @@ int main(void)
 {
 	char pla;
 
-	for (pla = 'z'; pla <= 'a'; pla--)
+	for (pla = 'z'; pla => 'a'; pla--)
 	{
 		putchar(pla);
 	}
