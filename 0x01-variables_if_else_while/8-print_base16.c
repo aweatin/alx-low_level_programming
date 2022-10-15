@@ -6,6 +6,7 @@
 int main(void)
 {
 	int dig;
+	char low;
 
 	for (dig = 0; dig < 10; dig++)
 	{
