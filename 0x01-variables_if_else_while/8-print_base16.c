@@ -8,12 +8,10 @@ int main(void)
 	int dig;
 	char low;
 
-	for (dig = 0; dig < 10; dig++)
-	{
+	for (dig = 0; dig < 10; dig++){
 			putchar((dig % 10) + '0');
 	}
-
-	for (low = 'a'; low < 'g'; low++);
+	for (low = 'a'; low < 'g'; low++)
 	{
 		putchar(low);
 	}
