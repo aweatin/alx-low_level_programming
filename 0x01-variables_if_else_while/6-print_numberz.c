@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int dig
+	int dig;
 
-	for (dig = '1'; dig <= '10'; dig++)
+	for (dig = 0; dig < 10; dig++)
 	{
-		putchar(alp);
+		putchar((dig % 10) + '0');
 	}
 	putchar('\n');
 	return (0);
