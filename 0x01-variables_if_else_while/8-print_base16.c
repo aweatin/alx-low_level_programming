@@ -10,8 +10,9 @@ int main(void)
 
 	for (dig = 0; dig < 10; dig++)
 	{
-		putchar((dig % 10) + '0');
+			putchar((dig % 10) + '0');
 	}
+
 	for (low = 'a'; low < 'g'; low++);
 	{
 		putchar(low);
