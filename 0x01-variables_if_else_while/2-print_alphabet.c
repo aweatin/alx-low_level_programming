@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
   *main-printing all small alphabets
   *Return:success 0
