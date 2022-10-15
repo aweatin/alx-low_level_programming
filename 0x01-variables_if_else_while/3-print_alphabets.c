@@ -6,6 +6,7 @@
 int main(void)
 {
 	char alp;
+	char ALP;
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
