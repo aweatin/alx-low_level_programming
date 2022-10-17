@@ -5,18 +5,18 @@
  */
 int main(void)
 {
-	int num;
+	int a;
+	int b;
 
-	for (num = 1; num < 90; num++)
-	{
-		putchar((num / 10) + '0');
-		putchar((num % 10) + '0');
-			if (num != 89)
+	for (a = 0; a < 8;)
+		for (b = 1; b < 9; b++)
+			while (a >= b && a != b)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar((a % 10) + '0');
+				putchar((b % 10) + '0');
+				putchar(",");
+				putchar(" ");
 			}
-	}
 	putchar('\n');
 	return (0);
 }
