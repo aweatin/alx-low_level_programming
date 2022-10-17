@@ -7,7 +7,7 @@ int main(void)
 {
 	int a;
 
-	for (a = 0; a < 8; a++)
+	for (a = 0; a < 100; a++)
 	{
 		putchar((a / 9) + '0');
 		putchar((a % 9) + '0');
