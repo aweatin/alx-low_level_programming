@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
+  * main - check the code.
+  *
+  * Return: Always 0.
+  */
 int main(void)
 {
 	int r;
@@ -12,6 +11,7 @@ int main(void)
 	r = _isalpha('H');
 	_putchar(r + '0');
 	r = _isalpha('o');
+	_putchar(r + '0');
 	r = _isalpha(108);
 	_putchar(r + '0');
 	r = _isalpha(';');

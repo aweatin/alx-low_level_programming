@@ -17,4 +17,3 @@ int _isalph(int c)
 		return (0);
 	}
 }
-
