@@ -1,12 +1,18 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 /**
-  *main - Printing a string ou
-  *not using printf,puts
-  *Return:Sucess 0
+  * main - Entry point
+  * without printf but _putchar
+  * Return:Sucess 0
   */
 int main(void)
 {
-	printf("_putchar\n");
+	char sen[] = "_putchar";
+	int a = 0;
+
+	while (a < 8)
+	{
+		_putchar(sen[a++]);
+	}
+	_putchar('\n');
 	return (0);
 }
