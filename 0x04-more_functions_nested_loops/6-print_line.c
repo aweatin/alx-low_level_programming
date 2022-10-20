@@ -2,15 +2,18 @@
 /**
   * print_line - printing line
   *@n : character to determine print times
-  *Return: void.
+  *Return: 0.
   */
 void print_line(int n)
 {
 	int a;
 
-	for (a = 0; a <= n; a++)
-	{
-		_putchar('_');
+	while (n != 0)
+	{	
+		for (a = 0; a <= n; a++)
+		{
+			_putchar('_');
+		}
 	}
-	_putchar('n');
+	_putchar('\n');
 }
