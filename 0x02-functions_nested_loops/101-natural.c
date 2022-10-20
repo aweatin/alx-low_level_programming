@@ -2,9 +2,9 @@
 /**
   *main - print sum and mutlitple of 3 and 5
   * below 1024
-  * Return : always 0
+  *Return: always 0
   */
-int main (void)
+int main(void)
 {
 	unsigned long int sum3, sum5, sum;
 	int i;
@@ -13,7 +13,7 @@ int main (void)
 	sum5 = 0;
 	sum = 0;
 
-	for ( i = 0; i < 1024; ++i)
+	for (i = 0; i < 1024; ++i)
 	{
 		if ((i % 3) == 0)
 		{
