@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
   * swap_int - swap values
@@ -6,7 +6,7 @@
   * @b : pointer value
   * Return: Always 0.
   */
-int swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int ntl;
 
