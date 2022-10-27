@@ -4,6 +4,4 @@
 int _putchar(char c);
 int *_strcat(char *dest, char *src);
 
-
-
 #endif
