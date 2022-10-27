@@ -3,7 +3,7 @@
 
 int _putchar(char c);
 int *_strcat(char *dest, char *src);
-int *_strncat(char *dest, chat *src, int n);
+int *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
