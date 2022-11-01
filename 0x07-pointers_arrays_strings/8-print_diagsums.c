@@ -19,6 +19,6 @@ void print_diagsums(int *a, int size)
 	{
 		dg1 += a[j];
 	}
-	printf("%d, " dg);
-	printf("%d, " dg1);
+	printf("%d, ", dg);
+	printf("%d\n", dg1);
 }
