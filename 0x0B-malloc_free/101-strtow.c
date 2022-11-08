@@ -19,7 +19,7 @@ int number(char *str)
 		{
 			for (; str[a] != ' ' && str[a] != '\0'; a++)
 				str++;
-				num++;
+			num++;
 		}
 	}
 	return (num);
@@ -32,7 +32,7 @@ int number(char *str)
 void free_everything(char **string, int i)
 {
 	for (; i > 0;)
-	free(string[--i]);
+		free(string[--i]);
 	free(string);
 }
 
