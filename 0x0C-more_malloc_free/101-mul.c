@@ -29,7 +29,7 @@ unsigned int string_length(char *str)
 	int a;
 
 	for (a = 0; str[a] != '\0'; a++)
-	a++;
+		a++;
 	return (a);
 }
 
@@ -123,4 +123,5 @@ int main(int argc, char **argv)
 	print_string(multi_res);
 	free(multi_res);
 	return (0);
+}
 }
