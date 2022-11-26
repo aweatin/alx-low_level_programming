@@ -7,15 +7,16 @@
  */
 void free_list(list_t *head)
 {
-	list_t *storeCopy;
+		list_t *current;
+		list_t *nxt;
 
-	while (head)
-	{
-		storeCopy = head->next;
+		current = head;
 
-		free(head->str);
-		free(head);
-		head = storeCopy;
-	}
-	free(head);
+		while (current != NULL)
+		{
+			nxt = current->next;
+			free(current->str);
+			free(current);
+			current = nxt;
+		}
 }
